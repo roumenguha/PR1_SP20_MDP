@@ -4,6 +4,14 @@ This project is composed of the following files:
 	- utils.py
 	- doorkey.py
 	
+The environment data is located in ./envs/
+	
+and the following folders house some interesting plots:
+	- ./gifs/: here we stored several animations: (1) the gif showing the agent moving through an environment via the policy we describe in our report, as well as (2) the gifs showing the heat maps (2 heat maps, for START -> KEY, and KEY -> GOAL respectively) of labels of explored states over iterations in a given environment.
+	- ./cells/: in this folder, we home the charts of labels vs iterations for certain special cells in a given environment. These special cells are: The neighbor cells of KEY, the neighbor cells of GOAL, and the cell to the left of the DOOR cell. 
+	- ./vals/: contains the individual frames of the heat map animations in ./gifs/. I converted these to animations manually.
+	- ./imgs/: images of the initial environment setup
+	
 PriorityQueue.py
 	- Fairly uninteresting. It's a quick implementation of a priority queue using a list as the underlying data structure, and the label of a Node acting as it's priority value
 	- Adapted from https://www.geeksforgeeks.org/priority-queue-in-python/
