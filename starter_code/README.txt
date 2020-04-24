@@ -1,4 +1,4 @@
-This project is composed of the following files:
+This project is composed of the following code files:
 	- PriorityQueue.py
 	- Node.py
 	- utils.py
