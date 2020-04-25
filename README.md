@@ -9,7 +9,7 @@
 
  The action sequence we include in this report and generate in our implementation is therefore less optimal than it could have been, but it is guaranteed to reach the GOAL eventually, and in most cases, it is able to do this with $\epsilon$-optimality. We suspect we would be able to resolve this issue if we had slightly more time or slightly more brainpower, but nothing in life is ever perfect. We included these in the zip file 'gifs-incorrect.7z' in case it is of interest to the reader.
  
- Maze Traversal            |  Value Iteration (S-to-K) |  Value Iteration (K-to-G)
+ Maze Traversal            |  Value Iteration (Start-to-Key) |  Value Iteration (Key-to-Goal)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![5x5-normal](starter_code/gif/doorkey-5x5-normal.gif) |  ![5x5-normal-s-k](starter_code/gif/doorkey-5x5-normal-VI-StartToKey.gif) | ![5x5-normal-k-g](starter_code/gif/doorkey-5x5-normal-VI-KeyToGoal.gif)
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -18,3 +18,9 @@
 ![6x6-normal](starter_code/gif/doorkey-6x6-normal.gif) |  ![6x6-normal-s-k](starter_code/gif/doorkey-6x6-normal-VI-StartToKey.gif) | ![6x6-normal-k-g](starter_code/gif/doorkey-6x6-normal-VI-KeyToGoal.gif)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![6x6-shortcut](starter_code/gif/doorkey-6x6-shortcut.gif) |  ![6x6-shortcut-s-k](starter_code/gif/doorkey-6x6-shortcut-VI-StartToKey.gif) | ![6x6-shortcut-k-g](starter_code/gif/doorkey-6x6-shortcut-VI-KeyToGoal.gif)
+:-------------------------:|:-------------------------:|:-------------------------:
+![8x8-direct](starter_code/gif/doorkey-8x8-direct.gif) |  ![8x8-direct-s-k](starter_code/gif/doorkey-8x8-direct-VI-StartToKey.gif) | ![8x8-direct-k-g](starter_code/gif/doorkey-8x8-direct-VI-KeyToGoal.gif)
+:-------------------------:|:-------------------------:|:-------------------------:
+![8x8-normal](starter_code/gif/doorkey-8x8-normal.gif) |  ![8x8-normal-s-k](starter_code/gif/doorkey-8x8-normal-VI-StartToKey.gif) | ![8x8-normal-k-g](starter_code/gif/doorkey-8x8-normal-VI-KeyToGoal.gif)
+:-------------------------:|:-------------------------:|:-------------------------:
+![8x8-shortcut](starter_code/gif/doorkey-8x8-shortcut.gif) |  ![8x8-shortcut-s-k](starter_code/gif/doorkey-8x8-shortcut-VI-StartToKey.gif) | ![8x8-shortcut-k-g](starter_code/gif/doorkey-8x8-shortcut-VI-KeyToGoal.gif)
