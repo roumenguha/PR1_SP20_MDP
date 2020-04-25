@@ -11,6 +11,8 @@
  
  Maze Traversal            |  Value Iteration (Start-to-Key) |  Value Iteration (Key-to-Goal)
 :-------------------------:|:-------------------------:|:-------------------------:
+![8x8-example](starter_code/gif/example-8x8-EXAMPLE.gif) |  ![8x8-mine](starter_code/gif/example-8x8.gif
+:-------------------------:|:-------------------------:|:-------------------------:
 ![5x5-normal](starter_code/gif/doorkey-5x5-normal.gif) |  ![5x5-normal-s-k](starter_code/gif/doorkey-5x5-normal-VI-StartToKey.gif) | ![5x5-normal-k-g](starter_code/gif/doorkey-5x5-normal-VI-KeyToGoal.gif)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![6x6-direct](starter_code/gif/doorkey-6x6-direct.gif) |  ![6x6-direct-s-k](starter_code/gif/doorkey-6x6-direct-VI-StartToKey.gif) | ![6x6-direct-k-g](starter_code/gif/doorkey-6x6-direct-VI-KeyToGoal.gif)
