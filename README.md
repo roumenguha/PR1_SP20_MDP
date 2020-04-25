@@ -5,6 +5,15 @@
 
  We did not solve the problem of the shortest path from START to GOAL, but instead solved two simpler sub-problems: START to KEY, and KEY to GOAL. The logic here is is that once the agent has the key, the door is traversable, and hence once we are at the KEY we simply need to focus on getting to the GOAL. This leads to sub-optimal solutions, but in most situations not *much* worse (except for the 'doorkey-8x8-normal' environment).
  
+ One of the issues with splitting the problem into two sub-problems is that our agent is forced to enter the KEY's cell after picking up the key. We were able to generate an action sequence from the shortest sequence of nodes that avoided this problem, and for the provided example environment generated an identical action sequence as the example action sequence. However the agent did not move in the same path that the label-correcting algorithm dictated it should for some other environments, and in the case of the environment 'doorkey-6x6-normal', the agent failed completely to reach the DOOR, much less the GOAL.
+
+ The action sequence we include in this report and generate in our implementation is therefore less optimal than it could have been, but it is guaranteed to reach the GOAL eventually, and in most cases, it is able to do this with $\epsilon$-optimality. We suspect we would be able to resolve this issue if we had slightly more time or slightly more brainpower, but nothing in life is ever perfect. We included these in the zip file 'gifs-incorrect.7z' in case it is of interest to the reader.
+ 
  Maze Traversal            |  Value Iteration (S-to-K) |  Value Iteration (K-to-G)
 :-------------------------:|:-------------------------:|:-------------------------:
-![5x5-normal](starter_code/gif/doorkey-5x5-normal.gif) |  ![5x5-normal-s-k](starter_code/gif/doorkey-5x5-normal-VI-StartToKey.gif) | ![5x5-normal-k-g](https://github.com/roumenguha/ECE276B_PR1_SP20_MDP/blob/master/starter_code/gif/doorkey-5x5-normal-VI-KeyToGoal.gif)
+![5x5-normal](starter_code/gif/doorkey-5x5-normal.gif) |  ![5x5-normal-s-k](starter_code/gif/doorkey-5x5-normal-VI-StartToKey.gif) | ![5x5-normal-k-g](starter_code/gif/doorkey-5x5-normal-VI-KeyToGoal.gif)
+:-------------------------:|:-------------------------:|:-------------------------:
+![6x6-direct](starter_code/gif/doorkey-6x6-direct.gif) |  ![6x6-direct-s-k](starter_code/gif/doorkey-6x6-direct-VI-StartToKey.gif) | ![6x6-direct-k-g](starter_code/gif/doorkey-6x6-direct-VI-KeyToGoal.gif)
+:-------------------------:|:-------------------------:|:-------------------------:
+![6x6-normal](starter_code/gif/doorkey-6x6-normal.gif) |  ![6x6-normal-s-k](starter_code/gif/doorkey-6x6-normal-VI-StartToKey.gif) | ![6x6-normal-k-g](starter_code/gif/doorkey-6x6-normal-VI-KeyToGoal.gif):-------------------------:|:-------------------------:|:-------------------------:
+![6x6-shortcut](starter_code/gif/doorkey-6x6-shortcut.gif) |  ![6x6-shortcut-s-k](starter_code/gif/doorkey-6x6-shortcut-VI-StartToKey.gif) | ![6x6-shortcut-k-g](starter_code/gif/doorkey-6x6-shortcut-VI-KeyToGoal.gif)
