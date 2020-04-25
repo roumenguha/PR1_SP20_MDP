@@ -10,11 +10,11 @@ from PriorityQueue import *
 
 PLOTTING = False
 
-MF = 0 # Move Forward
-TL = 1 # Turn Left
-TR = 2 # Turn Right
-PK = 3 # Pickup Key
-UD = 4 # Unlock Door
+MF = 0 # Move Forward (MF)
+TL = 1 # Turn Left (TL)
+TR = 2 # Turn Right (TR)
+PK = 3 # Pickup Key (PK)
+UD = 4 # Unlock Door (UD)
 
 def resetNodes(graph, beginNode, endNode):
     '''
@@ -239,9 +239,16 @@ if __name__ == '__main__':
         print(actSeq2)
         print()
 
+        nodeSeq = nodeSeq1 + nodeSeq2
+        print("complete shortest node sequence: START to GOAL")
+        print(" to ".join([str(n) for n in nodeSeq]))
+        print()
+
         actSeq = actSeq1 + actSeq2
         print("complete action sequence: START to GOAL")
         print(actSeq)
+        print(action_sequence_to_string(actSeq))
         print()
 
         draw_gif_from_seq(actSeq, load_env(env_path)[0], env_path[7:-4]) # draw a GIF & save
+        print()
