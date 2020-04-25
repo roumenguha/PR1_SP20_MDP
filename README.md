@@ -8,7 +8,7 @@
  One of the issues with splitting the problem into two sub-problems is that our agent is forced to enter the KEY's cell after picking up the key. We were able to generate an action sequence from the shortest sequence of nodes that avoided this problem, and for the provided example environment generated an identical action sequence as the example action sequence. However the agent did not move in the same path that the label-correcting algorithm dictated it should for some other environments, and in the case of the environment 'doorkey-6x6-normal', the agent failed completely to reach the DOOR, much less the GOAL. We included these in the zip file 'gifs-incorrect.7z' in case it is of interest to the reader. Here is an example of the difference between the optimal path I chose and what the true optimal path would be:
  
   Provided action sequence            |  Generated action sequence 
-:------------------------------------:|:-------------------------:|:-------------------------:
+:------------------------------------:|:-------------------------:
 ![8x8-example](starter_code/gif/example-8x8-EXAMPLE.gif) |  ![8x8-mine](starter_code/gif/example-8x8.gif)
 
  The action sequence we include in this report and generate in our implementation is therefore less optimal than it could have been, but it is guaranteed to reach the GOAL eventually, and in most cases, it is able to do this with $\epsilon$-optimality. We suspect we would be able to resolve this issue if we had slightly more time or slightly more brainpower, but nothing in life is ever perfect. 
