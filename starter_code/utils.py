@@ -226,11 +226,11 @@ def plot_special_state_values(graph, optVal, specialNode, path='./cells/valuesVs
 
 def action_sequence_to_string(actSeq):
     dictionary = {
-    MF : "MF", # Move Forward (MF)
-    TL : "TL", # Turn Left (TL)
-    TR : "TR", # Turn Right (TR)
-    PK : "PK", # Pickup Key (PK)
-    UD : "UK", # Unlock Door (UD)
+        MF : "MF", # Move Forward (MF)
+        TL : "TL", # Turn Left (TL)
+        TR : "TR", # Turn Right (TR)
+        PK : "PK", # Pickup Key (PK)
+        UD : "UD", # Unlock Door (UD)
     }
 
     return ", ".join([dictionary[a] for a in actSeq])
