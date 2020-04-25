@@ -15,5 +15,6 @@
 :-------------------------:|:-------------------------:|:-------------------------:
 ![6x6-direct](starter_code/gif/doorkey-6x6-direct.gif) |  ![6x6-direct-s-k](starter_code/gif/doorkey-6x6-direct-VI-StartToKey.gif) | ![6x6-direct-k-g](starter_code/gif/doorkey-6x6-direct-VI-KeyToGoal.gif)
 :-------------------------:|:-------------------------:|:-------------------------:
-![6x6-normal](starter_code/gif/doorkey-6x6-normal.gif) |  ![6x6-normal-s-k](starter_code/gif/doorkey-6x6-normal-VI-StartToKey.gif) | ![6x6-normal-k-g](starter_code/gif/doorkey-6x6-normal-VI-KeyToGoal.gif):-------------------------:|:-------------------------:|:-------------------------:
+![6x6-normal](starter_code/gif/doorkey-6x6-normal.gif) |  ![6x6-normal-s-k](starter_code/gif/doorkey-6x6-normal-VI-StartToKey.gif) | ![6x6-normal-k-g](starter_code/gif/doorkey-6x6-normal-VI-KeyToGoal.gif)
+:-------------------------:|:-------------------------:|:-------------------------:
 ![6x6-shortcut](starter_code/gif/doorkey-6x6-shortcut.gif) |  ![6x6-shortcut-s-k](starter_code/gif/doorkey-6x6-shortcut-VI-StartToKey.gif) | ![6x6-shortcut-k-g](starter_code/gif/doorkey-6x6-shortcut-VI-KeyToGoal.gif)
