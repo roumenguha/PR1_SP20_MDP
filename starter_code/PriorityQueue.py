@@ -12,7 +12,6 @@ Adapted from https://www.geeksforgeeks.org/priority-queue-in-python/
 from Node import *
 from operator import attrgetter
 
-
 # A simple implementation of Priority Queue using lists in Python.
 
 class PriorityQueue(object):
