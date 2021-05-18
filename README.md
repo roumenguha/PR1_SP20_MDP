@@ -1,4 +1,4 @@
-# ECE276B_PR1_SP20_MDP
+# PR1_SP20_MDP
  Project 1: Markov Processes and Dynamic Programming/Label-Correcting Applied to Motion Planning in a Maze. For ECE 276B at UCSD. 
  
  Consult my [Project Report](https://github.com/roumenguha/ECE276B_PR1_SP20_MDP/blob/master/ECE276B_PR1_Report_RoumenGuha.pdf) in the code folder for more background. 
